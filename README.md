@@ -1,15 +1,36 @@
-# Bob Sessions
+# 🤖 IBM Bob Session — NeuraForge
 
-This folder contains IBM Bob IDE session screenshots used as hackathon evidence.
+This folder contains evidence of the IBM Bob AI-assisted development session used to build **NeuraForge**.
 
-## Sessions
+## 🔗 Live Application
+👉 [https://neuraforge-gold.vercel.app](https://neuraforge-gold.vercel.app)
 
-| Session | Task | Description |
-|---------|------|-------------|
-| session_01 | Foundation | Project structure, backend + frontend scaffold |
-| session_02 | Core Engine | GitHub URL scanning, file extraction, stack detection |
-| session_03 | AI Pipeline | Groq integration, analysis generation |
-| session_04 | Frontend UI | React report components, dark theme |
-| session_05 | Integration & Testing | End-to-end test with real GitHub repos |
+## 📦 GitHub Repository
+👉 [https://github.com/kodiratnam568-wq/Neuraforge](https://github.com/kodiratnam568-wq/Neuraforge)
 
-Add screenshots as `session_01.png`, `session_02.png`, etc.
+## 🛠️ What IBM Bob Built
+
+| File | Description |
+|------|-------------|
+| `backend/main.py` | FastAPI app with `/analyze` endpoint |
+| `backend/github_service.py` | GitHub API — repo scan & file fetch |
+| `backend/ai_service.py` | Groq LLM (Llama 3.3 70B) integration |
+| `backend/requirements.txt` | Python dependencies |
+| `backend/render.yaml` | Render deployment config |
+| `frontend/src/App.jsx` | Main component + Report renderer |
+| `frontend/src/index.css` | Dark theme styles (GitHub-style) |
+| `frontend/index.html` | Vite entry HTML |
+| `frontend/vite.config.js` | Vite config |
+| `frontend/package.json` | Node dependencies |
+| `frontend/vercel.json` | Vercel deployment config |
+
+## 🧠 AI Tools Used
+- **IBM Bob** — Full stack code generation, debugging, deployment
+- **Groq API** — Llama 3.3 70B for repository analysis
+
+## 🚀 Deployment
+- **Frontend** → Vercel (`neuraforge-gold.vercel.app`)
+- **Backend** → Render
+
+## 📸 Session Proof
+This entire project — frontend, backend, deployment configs — was built in a single IBM Bob session.
