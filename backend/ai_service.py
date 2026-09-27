@@ -85,7 +85,7 @@ async def analyze_repository(repo_data: dict) -> dict:
             {"role": "user", "content": user_message},
         ],
         temperature=0.3,
-        max_tokens=2048,
+        max_tokens=800,
     )
 
     raw = response.choices[0].message.content.strip()
