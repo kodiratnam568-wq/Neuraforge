@@ -11,7 +11,6 @@ export default function App() {
   async function handleAnalyze() {
     if (!url.trim()) return
     setError('')
-    setResult(null)
     setLoading(true)
 
     try {
