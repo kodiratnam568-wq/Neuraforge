@@ -61,7 +61,6 @@ NeuraForge/
 │   ├── github_service.py  Repo scanning & file extraction
 │   ├── ai_service.py  Groq LLM integration
 │   └── requirements.txt
-├── bob_sessions/      IBM Bob session screenshots (hackathon evidence)
 └── README.md
 ```
 
