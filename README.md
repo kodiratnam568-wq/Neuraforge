@@ -86,4 +86,4 @@ NeuraForge/
 ## Built With IBM Bob
 
 This project was developed using IBM Bob IDE as the primary development agent.
-See `bob_sessions/` for Bob task session evidence.
+
